@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>id_101.0.shp</name>
+	<name>id_104.0.shp</name>
 	<open>1</open>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
@@ -38,22 +38,22 @@
 		</PolyStyle>
 	</Style>
 	<Folder id="layer 0">
-		<name>id_101</name>
+		<name>id_104</name>
 		<open>1</open>
-		<Placemark>
-			<name>1</name>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							7.12022102838106,10.76362230192407,0 7.119685014378856,10.76224672560427,0 7.120036858931329,10.76103952008035,0 7.121190397815981,10.76132404743096,0 7.123080224395208,10.76162023055105,0 7.124637498168942,10.76151087330729,0 7.127816410967139,10.76303502280744,0 7.127303496928197,10.76639569732956,0 7.121432960947942,10.76576418460021,0 7.12022102838106,10.76362230192407,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
 	</Folder>
+	<Placemark>
+		<name>1</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						7.069379974057746,10.51374692517931,0 7.069338419204987,10.51295939749964,0 7.070079780008514,10.51213095560555,0 7.069985936226429,10.51209930052821,0 7.069970677128003,10.51196646374229,0 7.070015607893392,10.51180025937872,0 7.069991663374524,10.51170173918353,0 7.07006152979851,10.51153718758901,0 7.070088067697869,10.51143921945017,0 7.071185866648452,10.51045394086709,0 7.075339949228354,10.51322211589657,0 7.075302619300725,10.51469923556642,0 7.075043323470918,10.51516726491802,0 7.074707721246627,10.51523487283754,0 7.07370010179589,10.51511752593502,0 7.071125004693137,10.51440231736079,0 7.069379974057746,10.51374692517931,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
 </Document>
 </kml>
