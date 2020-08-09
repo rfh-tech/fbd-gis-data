@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>id_61.kml</name>
+	<Schema name="id_61" id="S_id_61_DDDDD0">
+		<SimpleField type="double" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="left"><displayName>&lt;b&gt;left&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="top"><displayName>&lt;b&gt;top&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="right"><displayName>&lt;b&gt;right&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="bottom"><displayName>&lt;b&gt;bottom&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor7">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[id_61/id_2]</td></tr>
+  <tr><td><b>left</b></td><td>$[id_61/left]</td></tr>
+  <tr><td><b>top</b></td><td>$[id_61/top]</td></tr>
+  <tr><td><b>right</b></td><td>$[id_61/right]</td></tr>
+  <tr><td><b>bottom</b></td><td>$[id_61/bottom]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor8">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[id_61/id_2]</td></tr>
+  <tr><td><b>left</b></td><td>$[id_61/left]</td></tr>
+  <tr><td><b>top</b></td><td>$[id_61/top]</td></tr>
+  <tr><td><b>right</b></td><td>$[id_61/right]</td></tr>
+  <tr><td><b>bottom</b></td><td>$[id_61/bottom]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>id_61</name>
+		<styleUrl>#falseColor6</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#S_id_61_DDDDD0">
+				<SimpleData name="id_2">61</SimpleData>
+				<SimpleData name="left">6.83037</SimpleData>
+				<SimpleData name="top">10.8531</SimpleData>
+				<SimpleData name="right">6.93037</SimpleData>
+				<SimpleData name="bottom">10.7531</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						6.830366201738753,10.75308903740715,0 6.930366201738769,10.75308903740715,0 6.930366201738769,10.85308903740716,0 6.830366201738753,10.85308903740716,0 6.830366201738753,10.75308903740715,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
