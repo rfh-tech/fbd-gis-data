@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>id_10.kml</name>
+	<Schema name="id_10" id="S_id_10_DDDDD">
+		<SimpleField type="double" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="left"><displayName>&lt;b&gt;left&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="top"><displayName>&lt;b&gt;top&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="right"><displayName>&lt;b&gt;right&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="bottom"><displayName>&lt;b&gt;bottom&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<width>1.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<width>1.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[id_10/id_2]</td></tr>
+  <tr><td><b>left</b></td><td>$[id_10/left]</td></tr>
+  <tr><td><b>top</b></td><td>$[id_10/top]</td></tr>
+  <tr><td><b>right</b></td><td>$[id_10/right]</td></tr>
+  <tr><td><b>bottom</b></td><td>$[id_10/bottom]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[id_10/id_2]</td></tr>
+  <tr><td><b>left</b></td><td>$[id_10/left]</td></tr>
+  <tr><td><b>top</b></td><td>$[id_10/top]</td></tr>
+  <tr><td><b>right</b></td><td>$[id_10/right]</td></tr>
+  <tr><td><b>bottom</b></td><td>$[id_10/bottom]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>id_10</name>
+		<open>1</open>
+		<Placemark>
+			<name>Farm1_Kare</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							4.565900527946862,9.871019202500861,0 4.5674829500935,9.873371199087217,0 4.571021338821559,9.871709089579641,0 4.572313581286753,9.872880277835542,0 4.57033151898075,9.874447759411632,0 4.573722748469136,9.877356049015789,0 4.563495498152825,9.882059453268409,0 4.552295567801079,9.872038077289675,0 4.554272990546247,9.87063400926851,0 4.560286090981142,9.872626078477449,0 4.560441832702223,9.87257520457293,0 4.565900527946862,9.871019202500861,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Farm_3_Kare</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							4.552917870390019,9.889492304463813,0 4.558054937593639,9.878037487552055,0 4.563609468371328,9.882642689094496,0 4.568374964182594,9.880186392338024,0 4.573734357157246,9.885692671621603,0 4.572804765562526,9.895461286605588,0 4.552917870390019,9.889492304463813,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_id_10_DDDDD">
+					<SimpleData name="id_2">10</SimpleData>
+					<SimpleData name="left">4.53037</SimpleData>
+					<SimpleData name="top">9.95309</SimpleData>
+					<SimpleData name="right">4.63037</SimpleData>
+					<SimpleData name="bottom">9.85309</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							4.530366201738754,9.853089037407168,0 4.630366201738769,9.853089037407168,0 4.630366201738769,9.953089037407143,0 4.530366201738754,9.953089037407143,0 4.530366201738754,9.853089037407168,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Kare_Farm</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							4.546336574610288,9.882167912447368,0 4.545757772499428,9.876575435406563,0 4.55235597657722,9.876857290106079,0 4.552391018378341,9.885882553396952,0 4.544463723092218,9.885510059399799,0 4.540683841222634,9.882254586264043,0 4.546336574610288,9.882167912447368,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
