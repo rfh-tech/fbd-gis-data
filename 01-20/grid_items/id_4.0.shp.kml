@@ -102,6 +102,7 @@
 	</Style>
 	<Folder id="layer 0">
 		<name>id_4</name>
+		<open>1</open>
 		<Placemark>
 			<visibility>0</visibility>
 			<styleUrl>#falseColor0</styleUrl>
@@ -147,20 +148,6 @@
 					<LinearRing>
 						<coordinates>
 							6.59856566915082,10.54341609934067,0 6.598510637731218,10.54302327333282,0 6.599222414155779,10.54294001941379,0 6.599357875152759,10.54307138119394,0 6.599421101264604,10.54328516249891,0 6.59856566915082,10.54341609934067,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Untitled Polygon</name>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Polygon>
-				<tessellate>1</tessellate>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							6.597803876412389,10.54350241861541,0 6.598219903807423,10.54397678705497,0 6.598066701499523,10.54412067110185,0 6.597669329264646,10.54366785859972,0 6.597803876412389,10.54350241861541,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
