@@ -102,7 +102,9 @@
 	</Style>
 	<Folder id="layer 0">
 		<name>id_4</name>
+		<open>1</open>
 		<Placemark>
+			<visibility>0</visibility>
 			<styleUrl>#falseColor0</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#S_id_4_DDDDD">
