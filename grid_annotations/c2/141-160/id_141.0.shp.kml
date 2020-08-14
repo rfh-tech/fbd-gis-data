@@ -3,18 +3,6 @@
 <Document>
 	<name>id_141.0.shp</name>
 	<open>1</open>
-	<Schema name="id_141" id="S_id_141_DDDDD">
-		<SimpleField type="double" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="double" name="left"><displayName>&lt;b&gt;left&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="double" name="top"><displayName>&lt;b&gt;top&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="double" name="right"><displayName>&lt;b&gt;right&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="double" name="bottom"><displayName>&lt;b&gt;bottom&lt;/b&gt;</displayName>
-</SimpleField>
-	</Schema>
 	<Style id="s_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -24,22 +12,6 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>id</b></td><td>$[id_141/id_2]</td></tr>
-  <tr><td><b>left</b></td><td>$[id_141/left]</td></tr>
-  <tr><td><b>top</b></td><td>$[id_141/top]</td></tr>
-  <tr><td><b>right</b></td><td>$[id_141/right]</td></tr>
-  <tr><td><b>bottom</b></td><td>$[id_141/bottom]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<colorMode>random</colorMode>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
@@ -53,16 +25,6 @@
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="falseColor0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -72,22 +34,6 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor1">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>id</b></td><td>$[id_141/id_2]</td></tr>
-  <tr><td><b>left</b></td><td>$[id_141/left]</td></tr>
-  <tr><td><b>top</b></td><td>$[id_141/top]</td></tr>
-  <tr><td><b>right</b></td><td>$[id_141/right]</td></tr>
-  <tr><td><b>bottom</b></td><td>$[id_141/bottom]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<colorMode>random</colorMode>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
@@ -257,27 +203,6 @@
 					<LinearRing>
 						<coordinates>
 							7.245415261517174,10.78918817001576,0 7.245360750610025,10.7891002558795,0 7.245284749519385,10.78912981895724,0 7.245221318503985,10.78911401062849,0 7.245239311334211,10.78901158582505,0 7.245306961203777,10.78880023196776,0 7.245860269787467,10.78898906485968,0 7.245740442197716,10.78930518430731,0 7.245415261517174,10.78918817001576,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<styleUrl>#falseColor0</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#S_id_141_DDDDD">
-					<SimpleData name="id_2">141</SimpleData>
-					<SimpleData name="left">7.23037</SimpleData>
-					<SimpleData name="top">10.8531</SimpleData>
-					<SimpleData name="right">7.33037</SimpleData>
-					<SimpleData name="bottom">10.7531</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							7.230366201738776,10.75308903740715,0 7.330366201738752,10.75308903740715,0 7.330366201738752,10.85308903740716,0 7.230366201738776,10.85308903740716,0 7.230366201738776,10.75308903740715,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
