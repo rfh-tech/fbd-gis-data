@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>id_4.0.shp</name>
+	<Schema name="id_4" id="S_id_4_DDDDD">
+		<SimpleField type="double" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="left"><displayName>&lt;b&gt;left&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="top"><displayName>&lt;b&gt;top&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="right"><displayName>&lt;b&gt;right&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="bottom"><displayName>&lt;b&gt;bottom&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[id_4/id_2]</td></tr>
+  <tr><td><b>left</b></td><td>$[id_4/left]</td></tr>
+  <tr><td><b>top</b></td><td>$[id_4/top]</td></tr>
+  <tr><td><b>right</b></td><td>$[id_4/right]</td></tr>
+  <tr><td><b>bottom</b></td><td>$[id_4/bottom]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor1">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[id_4/id_2]</td></tr>
+  <tr><td><b>left</b></td><td>$[id_4/left]</td></tr>
+  <tr><td><b>top</b></td><td>$[id_4/top]</td></tr>
+  <tr><td><b>right</b></td><td>$[id_4/right]</td></tr>
+  <tr><td><b>bottom</b></td><td>$[id_4/bottom]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>id_4</name>
+		<open>1</open>
+		<Placemark>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_id_4_DDDDD">
+					<SimpleData name="id_2">4</SimpleData>
+					<SimpleData name="left">6.53037</SimpleData>
+					<SimpleData name="top">10.5531</SimpleData>
+					<SimpleData name="right">6.63037</SimpleData>
+					<SimpleData name="bottom">10.4531</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.530366201738746,10.45308903740714,0 6.630366201738762,10.45308903740714,0 6.630366201738762,10.55308903740716,0 6.530366201738746,10.55308903740716,0 6.530366201738746,10.45308903740714,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.617043881385289,10.54906785224671,0 6.617032751601075,10.54837886570509,0 6.617353235612424,10.54840556814441,0 6.617591456966688,10.54859255863887,0 6.617552866790413,10.54903190131513,0 6.617043881385289,10.54906785224671,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.59856566915082,10.54341609934067,0 6.598510637731218,10.54302327333282,0 6.599222414155779,10.54294001941379,0 6.599357875152759,10.54307138119394,0 6.599421101264604,10.54328516249891,0 6.59856566915082,10.54341609934067,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.598309390013688,10.54394545206889,0 6.598876956417843,10.54380405362551,0 6.599007093569318,10.5441866183016,0 6.598691820667113,10.54423763613505,0 6.598641821628483,10.54439664440379,0 6.598466240531122,10.54420293750331,0 6.59829955461825,10.54411398926092,0 6.598309390013688,10.54394545206889,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.597045582194491,10.54507537908396,0 6.597025625044878,10.5445616621202,0 6.597659197046061,10.54443005343513,0 6.598354296310549,10.54455155748425,0 6.598341938347875,10.54483524151081,0 6.597710262612837,10.5450548062193,0 6.597045582194491,10.54507537908396,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.598457700620804,10.54568963166639,0 6.598461885956562,10.54560267939614,0 6.598429093301929,10.54547211714899,0 6.598466181196045,10.54543809488511,0 6.598618415989616,10.54542601930535,0 6.598626598789434,10.54526499178425,0 6.598892386160227,10.54516540369062,0 6.599023092283131,10.54521825299092,0 6.599133986837591,10.54514084200119,0 6.599395948012443,10.54513743486123,0 6.599255452991106,10.54541805110641,0 6.599128807909325,10.54541810718776,0 6.599034254470646,10.54544053767414,0 6.598949706045105,10.54545181375732,0 6.598743338987843,10.54555470452573,0 6.598583578114152,10.54562540896757,0 6.598457700620804,10.54568963166639,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.597856813461314,10.54598285648119,0 6.597810263671491,10.54580872139491,0 6.598077306918587,10.54575844787594,0 6.598118634479,10.54594575186047,0 6.597856813461314,10.54598285648119,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.598089823151776,10.54512505726669,0 6.598071699410788,10.54497177635729,0 6.598465739745509,10.54480091214724,0 6.598448008077275,10.54514327190004,0 6.598089823151776,10.54512505726669,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.595797804627541,10.5448025536849,0 6.596221606163926,10.54475913326417,0 6.596165561391722,10.54520557664311,0 6.595730793536026,10.54526021910601,0 6.595797804627541,10.5448025536849,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.594715334816454,10.5462874853684,0 6.594624785403226,10.54606539678853,0 6.594612767149255,10.54582616673811,0 6.594704515635243,10.54539092842706,0 6.594809971137674,10.54537804110129,0 6.594918077151175,10.54547223050383,0 6.595151552196792,10.54576643422168,0 6.595151313957124,10.54606967578156,0 6.595115588662321,10.54623655229546,0 6.594715334816454,10.5462874853684,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.591628662723672,10.54836114835429,0 6.591527205620853,10.54787440191205,0 6.591847464884822,10.5478785139523,0 6.59224340136938,10.54781974795119,0 6.592520395083485,10.54768321747509,0 6.592725677717358,10.54743275132596,0 6.592967686868736,10.54824376790048,0 6.592663058304762,10.54833653152166,0 6.592484305285396,10.54832170282779,0 6.592287394867244,10.54837307381699,0 6.591911469934042,10.5483178372679,0 6.591628662723672,10.54836114835429,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.591498233159323,10.54715210768015,0 6.591472294886273,10.54648770596698,0 6.591179648358303,10.54652993800673,0 6.591109510720726,10.54640874709217,0 6.5911858252021,10.5462474847085,0 6.591579365344273,10.54610109600004,0 6.591575830962966,10.54604472681214,0 6.591420663745771,10.545867701534,0 6.591935764866548,10.54578137169485,0 6.592283690111063,10.54606511924051,0 6.592311295740605,10.54624973998239,0 6.592274753553569,10.54644380484879,0 6.592256420463483,10.54687688061448,0 6.591774243311956,10.54708474914888,0 6.591498233159323,10.54715210768015,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.593679745611265,10.54939068067588,0 6.593928045340163,10.54988097380353,0 6.593451281367222,10.55010633379553,0 6.593457822576855,10.55029456449036,0 6.593181448449932,10.55055398788047,0 6.592931455765639,10.55033465829411,0 6.592661937013283,10.55035310517978,0 6.592393747520589,10.54995669546343,0 6.593679745611265,10.54939068067588,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.596501360098324,10.54513450814502,0 6.596479519551252,10.54495436793704,0 6.596511304909818,10.54465568181363,0 6.597005970512518,10.54458449459544,0 6.597015024458031,10.545081200511,0 6.596501360098324,10.54513450814502,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.595592793647949,10.54567443851815,0 6.595525498174515,10.54536087271166,0 6.595743843936606,10.5452802388158,0 6.596134551012359,10.54521997793728,0 6.596181223932607,10.54552385214176,0 6.596148108279067,10.54555288157377,0 6.596187156152922,10.54586447492746,0 6.595841030235635,10.54587928801794,0 6.59578720471827,10.54565614294555,0 6.595592793647949,10.54567443851815,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.574789949955071,10.48066378675691,0 6.574682923381228,10.48036341891472,0 6.575146609370892,10.4802621603994,0 6.575226755137916,10.48032623001349,0 6.575354819802648,10.48033178633836,0 6.575461607170556,10.48058944827985,0 6.575302020234131,10.48065826087464,0 6.575275206844003,10.48057723742001,0 6.574789949955071,10.48066378675691,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.574044889180795,10.47936407522507,0 6.574012797446405,10.47893252799388,0 6.574358852068462,10.47898987078482,0 6.574382841719029,10.47934564255525,0 6.574044889180795,10.47936407522507,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.572856213591676,10.47817775395341,0 6.573032322724053,10.47795664184324,0 6.573220629957738,10.4779606811817,0 6.573683614170647,10.47788111219853,0 6.574030654822303,10.47788105363034,0 6.574298338588955,10.47786137675635,0 6.574557721428702,10.47773811465536,0 6.574950707036498,10.47773832939293,0 6.574931341181878,10.4783676733336,0 6.574569053210555,10.47832593193494,0 6.574174208013277,10.47850335083881,0 6.573620665311322,10.47842699156898,0 6.573411229498349,10.47835595514733,0 6.573174707838152,10.47830752575358,0 6.572835724093338,10.47834526796289,0 6.572715413742037,10.47826144885404,0 6.572856213591676,10.47817775395341,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.571217939695733,10.4802517444423,0 6.571019117016212,10.47987074666677,0 6.571633573171769,10.47959166585819,0 6.571646335515631,10.47976234081629,0 6.571821077715221,10.48000239809071,0 6.571217939695733,10.4802517444423,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.569877956676928,10.47973242224399,0 6.569923254173782,10.47942265291303,0 6.570318008424849,10.47931514449377,0 6.570612474441799,10.47921708941359,0 6.570480556093575,10.47950583986405,0 6.570134609622964,10.47981764307514,0 6.569976019423711,10.48007383578935,0 6.569877956676928,10.47973242224399,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.570399099255959,10.48006620736109,0 6.5705116912848,10.47990028297159,0 6.570720247819361,10.47937166573482,0 6.571171703140628,10.48026006703557,0 6.570585256875239,10.48045574160519,0 6.570399099255959,10.48006620736109,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.571442751809398,10.47910363604364,0 6.57150315027013,10.47895851527081,0 6.571717022744821,10.47907972557518,0 6.571940190967163,10.47912189818609,0 6.571900541795916,10.47930765551223,0 6.571904819732222,10.47942883652233,0 6.571442751809398,10.47910363604364,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.574961455551116,10.48085962934658,0 6.574931092312313,10.48069487473802,0 6.575226716388311,10.48061404085237,0 6.575232982316408,10.4808340574712,0 6.575084674189229,10.48084331857533,0 6.574961455551116,10.48085962934658,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.576304335271878,10.47921979234838,0 6.576284695714678,10.47892386655509,0 6.576502565578988,10.47882624985378,0 6.576687876086666,10.47877796790564,0 6.576736505359055,10.47925391614183,0 6.576630403631992,10.47921404010512,0 6.576304335271878,10.47921979234838,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.57614923730331,10.47938623382875,0 6.576155388237492,10.47922733090987,0 6.576518177330759,10.47924691746251,0 6.576617429898444,10.47933623537957,0 6.576620623375247,10.47945262873517,0 6.576543699406752,10.47960781067998,0 6.576205691693753,10.47961213219875,0 6.576215872174211,10.47939142137328,0 6.57614923730331,10.47938623382875,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.572636878326225,10.47886419063954,0 6.572936316298604,10.47885971595488,0 6.572909384567637,10.47899654432322,0 6.572794765682555,10.47913839421163,0 6.572677710869232,10.47918022292571,0 6.572419383562186,10.47894347487368,0 6.572636878326225,10.47886419063954,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.566198746841434,10.48308427389963,0 6.566439151312025,10.48337581540854,0 6.566017192236884,10.48359816363672,0 6.565913191983974,10.48331395634363,0 6.566198746841434,10.48308427389963,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.566418281611456,10.48348320581762,0 6.566537506719463,10.48391660246318,0 6.56634364778292,10.48402941399922,0 6.566188379694633,10.48362233980367,0 6.566418281611456,10.48348320581762,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.572905748652069,10.48489738567877,0 6.572841497082025,10.484851082363,0 6.572897954992771,10.4846300793997,0 6.572843163525128,10.48448331559351,0 6.572825865279592,10.48427942390849,0 6.572704278679884,10.4841395219837,0 6.572621441307822,10.48399631920913,0 6.572496253894126,10.48386183671273,0 6.572489349706045,10.48365189426869,0 6.572579470523014,10.4834449131271,0 6.572883063819797,10.48408979478651,0 6.57300791827705,10.48411588583862,0 6.573095972307756,10.48449936405277,0 6.573156764248518,10.48477897601015,0 6.573133709530223,10.48505549397201,0 6.572979951699216,10.48497532559951,0 6.572905748652069,10.48489738567877,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.568427190064305,10.47991027919439,0 6.568681485146417,10.47959010745966,0 6.568751434650986,10.47963437289028,0 6.568893890991969,10.47964422246839,0 6.568934492989513,10.4799409718855,0 6.568500985207042,10.48007470637035,0 6.568427190064305,10.47991027919439,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.567844356079011,10.48066441668121,0 6.567727725144521,10.48048433508782,0 6.567616581264961,10.4803645893424,0 6.567854578290449,10.48019963827867,0 6.568359990573014,10.47975605049814,0 6.568255975966206,10.48001100546251,0 6.568137510915777,10.48017125011639,0 6.568132789818963,10.48032285705956,0 6.568006543037994,10.48051894865554,0 6.567844356079011,10.48066441668121,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.570830125526975,10.48838921384977,0 6.570862463166001,10.48803894636708,0 6.571203578357574,10.48808090913829,0 6.571232734583827,10.48818677374323,0 6.571277855745034,10.48823173502491,0 6.571287372188108,10.48836502044543,0 6.571049524887773,10.48841986225215,0 6.570830125526975,10.48838921384977,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.570068832043001,10.49240452148512,0 6.569974507948406,10.49179140804386,0 6.570305500777092,10.49178318645424,0 6.570593641357028,10.4918158185688,0 6.570619258844559,10.49220397720693,0 6.570592190317179,10.49242559655021,0 6.570068832043001,10.49240452148512,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.56934642108207,10.49228770071902,0 6.569334213391491,10.4919822256892,0 6.569512616188147,10.49194259799615,0 6.569641157879937,10.49198791171963,0 6.569735198330244,10.49198005847899,0 6.569774835028128,10.49189536376761,0 6.569930719791007,10.49185095075381,0 6.569976724490836,10.49222644413875,0 6.56934642108207,10.49228770071902,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.574559852567747,10.48420195497709,0 6.574540993013029,10.48408545056488,0 6.574517987866142,10.48398669326147,0 6.574595261743998,10.48398234976689,0 6.574734154697557,10.48387481726111,0 6.574764259760819,10.48388800526397,0 6.574840191509248,10.48412130408523,0 6.574559852567747,10.48420195497709,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.574998155799216,10.48562478826699,0 6.575035101938404,10.48535982773746,0 6.575109763938847,10.48534882902295,0 6.575159200784324,10.48528573096437,0 6.57555985778616,10.48536812823468,0 6.575572637825246,10.48570812391569,0 6.574998155799216,10.48562478826699,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.575451312231535,10.47847966258547,0 6.57561720655877,10.47849048588134,0 6.575790712451943,10.4784797890943,0 6.57584287801763,10.47837291428216,0 6.575916779095968,10.47837292509429,0 6.575903994288734,10.47834229422139,0 6.576095834466837,10.47831193377785,0 6.576099047553314,10.47836417579924,0 6.57617612403625,10.47835543084813,0 6.576196569351271,10.47869792476259,0 6.57601919940716,10.47871701749957,0 6.575799537429492,10.47870263757402,0 6.575793263229553,10.47859895123978,0 6.575452432726872,10.47861994328211,0 6.575451312231535,10.47847966258547,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.609297497176964,10.54669838022135,0 6.609445677365384,10.54667313625206,0 6.609512548560446,10.54673995111127,0 6.609492154190352,10.54696964126231,0 6.609454610403374,10.54700903537618,0 6.609264226012281,10.54702404280914,0 6.609297497176964,10.54669838022135,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.609399647849445,10.54738173007865,0 6.609382881360249,10.54712134622818,0 6.609511578577532,10.54700533333654,0 6.609623757856397,10.54697024783267,0 6.609643143708741,10.54728036622298,0 6.609509388667099,10.5472964969593,0 6.609399647849445,10.54738173007865,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.60927877410743,10.54816917967232,0 6.609321928466876,10.54774050511476,0 6.609504624779554,10.54781893446805,0 6.609460798507582,10.54790684756064,0 6.609438345518015,10.54796191423309,0 6.60936874066937,10.54807511874947,0 6.60927877410743,10.54816917967232,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.563909359335643,10.48538379052233,0 6.56407375711783,10.48579882210088,0 6.564083391029378,10.48587481654108,0 6.563737728054255,10.48601864757945,0 6.563344044391886,10.48562400809065,0 6.563909359335643,10.48538379052233,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.560917910266166,10.48800833016115,0 6.560964693046516,10.48788588498228,0 6.561016790030163,10.48785899779683,0 6.561048047928233,10.48777395082056,0 6.561128811084476,10.48778098281304,0 6.561184417273829,10.48771726706937,0 6.561143742657634,10.48759053677564,0 6.561254898509037,10.4875666726836,0 6.561579016792609,10.48717844041904,0 6.562283377332523,10.4869104526224,0 6.562679364082513,10.48676365087115,0 6.563464193044433,10.48757652644865,0 6.562880263486946,10.48819241893636,0 6.56247398570369,10.48845440463707,0 6.562378660093904,10.48841987958006,0 6.562352964558285,10.48801066495149,0 6.56219883379729,10.48763695615123,0 6.562116733192756,10.48758319775266,0 6.561857559543034,10.48760605315075,0 6.560917910266166,10.48800833016115,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.568949692558097,10.49053371085855,0 6.568821067625572,10.49026737874961,0 6.568653551686811,10.49003349801542,0 6.568600738767374,10.48987201682518,0 6.568889799239193,10.48950048092288,0 6.568905915329895,10.4893937759122,0 6.569048451407856,10.48938880376358,0 6.56913939205171,10.48930940261873,0 6.569377861326777,10.48922330871137,0 6.569500130737074,10.48934338787906,0 6.569553297854283,10.48925478087985,0 6.569629191526429,10.48930018330845,0 6.569755377154555,10.4892178949957,0 6.569846322813159,10.48952106326766,0 6.569701312606037,10.48996154624549,0 6.569447889804295,10.49053237793947,0 6.568949692558097,10.49053371085855,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.569381606366536,10.49094638318831,0 6.569438454421739,10.49063785576193,0 6.569753605555628,10.48990070208575,0 6.569858381973591,10.48992947377806,0 6.569930620795454,10.49041603366448,0 6.569901216630251,10.49077666842246,0 6.569598902278539,10.49098864966126,0 6.569381606366536,10.49094638318831,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.57551094758551,10.48773618029484,0 6.575369072015338,10.48745123936239,0 6.57538380986386,10.48713291517738,0 6.575696715460413,10.48724708394835,0 6.575760346399971,10.48752258571553,0 6.575792630390611,10.48774053321891,0 6.57551094758551,10.48773618029484,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.575820374965369,10.48784644741679,0 6.575823109753085,10.48748371132052,0 6.575944775644946,10.48742144124745,0 6.576385943421617,10.48752903282199,0 6.57675116515871,10.48755646901557,0 6.576750165653271,10.48776035762615,0 6.576443885408764,10.48792802740922,0 6.576284034466662,10.48781953215471,0 6.576032286638878,10.48777704040385,0 6.575820374965369,10.48784644741679,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							6.57529777608266,10.48878389486497,0 6.575216937568838,10.48855650278674,0 6.575181707703413,10.48820610377303,0 6.575256920501323,10.48779924026597,0 6.575684983590897,10.48780705174091,0 6.575674741236012,10.48875356550897,0 6.57529777608266,10.48878389486497,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
