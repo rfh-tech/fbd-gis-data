@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>id_392.0.shp</name>
+	<name>id_392.0.shp.kml</name>
 	<open>1</open>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
@@ -37,10 +37,6 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Folder id="layer 0">
-		<name>id_392</name>
-		<open>1</open>
-	</Folder>
 	<Placemark>
 		<name>Untitled Polygon</name>
 		<styleUrl>#m_ylw-pushpin</styleUrl>

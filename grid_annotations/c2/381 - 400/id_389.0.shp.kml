@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>id_389.0.shp</name>
+	<name>id_389.0.shp.kml</name>
 	<open>1</open>
-	<Style id="s_ylw-pushpin_hl">
+	<Style id="s_ylw-pushpin">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -25,9 +25,9 @@
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin">
+	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -37,10 +37,6 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Folder id="layer 0">
-		<name>id_389</name>
-		<open>1</open>
-	</Folder>
 	<Placemark>
 		<name>Untitled Polygon</name>
 		<styleUrl>#m_ylw-pushpin</styleUrl>
