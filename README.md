@@ -35,8 +35,7 @@ You can join us in annotating! To create annotations:
 
 	Before annotation:
 
-	<img![alt text](imgs/img1.png "Farm"){width='400', height='300'}/>
-
+	![alt text](imgs/img1.png "Farm"){width='400', height='300'}
 
 	After annotation:
 
