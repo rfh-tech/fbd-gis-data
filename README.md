@@ -41,7 +41,7 @@ fbd-gis-data is a repository for farm boundary annotations using Geospatial Imag
 ### Recommended Annotation Tools/Software 
 
 Any Geobrowser/Earth Browser (such as Google Earth) that works well with KML (.kml) and Shape (.shp) files, would be fine. 
-From our experience, Google Earth Pro  has little to no learning curve for this activity so it's easier to start with.
+From our experience, Google Earth Pro  has little to no learning curve for this type of activity so it's easier to start with.
 
 
 ### How Can I Contribute?
@@ -73,12 +73,12 @@ You can join us in annotating! To create annotations:
 
 	![alt text](imgs/img2.png "Farm")
 
-7. When saving, please don’t change the file name. Also save the file as a KML file.
+7. When saving, please avoid changing the file name. Also save the file as a KML file.
 
 8. Before making a pull request for your work to be accepted, please ensure the file is saved in the right folder under *Annotated* on the repo. For instnance, if you chose a file from *c3*, please save you annotated file under *c3* in *Annotated*.
 
 
-### Guidelines For Creating Great Annotations
+### Guidelines For Creating Good Annotations
 
 - Avoid overlapping features. Don’t create a polygon inside another polygon. If there are small farm boundaries inside a bigger one, annotate only the small ones and don’t annotate the big one.
 
