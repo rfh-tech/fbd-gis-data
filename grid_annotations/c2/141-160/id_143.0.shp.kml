@@ -3,44 +3,6 @@
 <Document>
 	<name>id_143.0.shp</name>
 	<open>1</open>
-	<Schema name="id_143" id="S_id_143_DDDDD">
-		<SimpleField type="double" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="double" name="left"><displayName>&lt;b&gt;left&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="double" name="top"><displayName>&lt;b&gt;top&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="double" name="right"><displayName>&lt;b&gt;right&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="double" name="bottom"><displayName>&lt;b&gt;bottom&lt;/b&gt;</displayName>
-</SimpleField>
-	</Schema>
-	<StyleMap id="falseColor">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor24</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor0">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
-  <tr><td><b>left</b></td><td>$[id_143/left]</td></tr>
-  <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
-  <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
-  <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<colorMode>random</colorMode>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<StyleMap id="falseColor1">
 		<Pair>
 			<key>normal</key>
@@ -51,17 +13,17 @@
 			<styleUrl>#falseColor26</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="falseColor2">
+	<StyleMap id="falseColor8">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor23</styleUrl>
+			<styleUrl>#falseColor11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor6</styleUrl>
+			<styleUrl>#falseColor12</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor3">
+	<Style id="falseColor6">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
@@ -69,8 +31,37 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor27">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
+  <tr><td><b>left</b></td><td>$[id_143/left]</td></tr>
+  <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
+  <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
+  <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor28">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
+  <tr><td><b>left</b></td><td>$[id_143/left]</td></tr>
+  <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
+  <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
+  <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
@@ -87,6 +78,46 @@
 			<styleUrl>#falseColor27</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="falseColor2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor23</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor18">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
+  <tr><td><b>left</b></td><td>$[id_143/left]</td></tr>
+  <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
+  <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
+  <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor3">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
+  <tr><td><b>left</b></td><td>$[id_143/left]</td></tr>
+  <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
+  <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
+  <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<StyleMap id="falseColor5">
 		<Pair>
 			<key>normal</key>
@@ -97,7 +128,7 @@
 			<styleUrl>#falseColor0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor6">
+	<Style id="falseColor13">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
@@ -105,35 +136,24 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="falseColor7">
+	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#falseColor28</styleUrl>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#falseColor20</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="falseColor8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor11</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor12</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor9">
+	<Style id="falseColor22">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
@@ -141,40 +161,7 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<colorMode>random</colorMode>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor10">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
-  <tr><td><b>left</b></td><td>$[id_143/left]</td></tr>
-  <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
-  <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
-  <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<colorMode>random</colorMode>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor11">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
-  <tr><td><b>left</b></td><td>$[id_143/left]</td></tr>
-  <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
-  <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
-  <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
@@ -189,40 +176,7 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<colorMode>random</colorMode>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor13">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
-  <tr><td><b>left</b></td><td>$[id_143/left]</td></tr>
-  <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
-  <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
-  <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<colorMode>random</colorMode>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor14">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
-  <tr><td><b>left</b></td><td>$[id_143/left]</td></tr>
-  <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
-  <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
-  <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
@@ -237,15 +191,14 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor16">
+	<Style id="falseColor31">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
@@ -253,8 +206,7 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
@@ -271,22 +223,6 @@
 			<styleUrl>#falseColor25</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor18">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
-  <tr><td><b>left</b></td><td>$[id_143/left]</td></tr>
-  <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
-  <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
-  <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<colorMode>random</colorMode>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<StyleMap id="falseColor19">
 		<Pair>
 			<key>normal</key>
@@ -297,7 +233,17 @@
 			<styleUrl>#falseColor3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor20">
+	<StyleMap id="falseColor7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor28</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor11">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
@@ -305,25 +251,14 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="falseColor21">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor29</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor14</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="falseColor22">
+	<Style id="falseColor16">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
@@ -331,8 +266,7 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
@@ -347,15 +281,26 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor24">
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor10">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
@@ -363,15 +308,26 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor25">
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor20">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
@@ -379,8 +335,22 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
+  <tr><td><b>left</b></td><td>$[id_143/left]</td></tr>
+  <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
+  <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
+  <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
@@ -395,15 +365,14 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor27">
+	<Style id="falseColor9">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
@@ -411,15 +380,24 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor28">
+	<StyleMap id="falseColor">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor24">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
@@ -427,15 +405,14 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor29">
+	<Style id="falseColor25">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
   <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
@@ -443,8 +420,7 @@
   <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
+</table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
 			<colorMode>random</colorMode>
@@ -461,46 +437,9 @@
 			<styleUrl>#falseColor16</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="falseColor31">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>id</b></td><td>$[id_143/id_2]</td></tr>
-  <tr><td><b>left</b></td><td>$[id_143/left]</td></tr>
-  <tr><td><b>top</b></td><td>$[id_143/top]</td></tr>
-  <tr><td><b>right</b></td><td>$[id_143/right]</td></tr>
-  <tr><td><b>bottom</b></td><td>$[id_143/bottom]</td></tr>
-</table>
-]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<colorMode>random</colorMode>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<Folder id="layer 0">
 		<name>id_143</name>
 		<open>1</open>
-		<Placemark>
-			<styleUrl>#falseColor21</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#S_id_143_DDDDD">
-					<SimpleData name="id_2">143</SimpleData>
-					<SimpleData name="left">7.23037</SimpleData>
-					<SimpleData name="top">10.6531</SimpleData>
-					<SimpleData name="right">7.33037</SimpleData>
-					<SimpleData name="bottom">10.5531</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							7.230366201738776,10.55308903740716,0 7.330366201738752,10.55308903740716,0 7.330366201738752,10.65308903740717,0 7.230366201738776,10.65308903740717,0 7.230366201738776,10.55308903740716,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
 		<Placemark>
 			<name>1</name>
 			<styleUrl>#falseColor</styleUrl>
@@ -636,6 +575,34 @@
 					<LinearRing>
 						<coordinates>
 							7.240338246417464,10.64285868390242,0 7.240387818241729,10.64288450406304,0 7.24058746856832,10.64295097257833,0 7.240526140296339,10.64317197316155,0 7.240488083886776,10.64330978969499,0 7.240472670905545,10.64341467439659,0 7.240427780549911,10.643581213549,0 7.240381925824694,10.64375179242589,0 7.240292431713273,10.64396266270253,0 7.240251774505753,10.64406169018061,0 7.240141848145658,10.64402517322685,0 7.240017821870348,10.64398531248438,0 7.240054596170133,10.64388907164908,0 7.240110591830502,10.64375060799375,0 7.240156192238192,10.64351425638074,0 7.240222170799906,10.64326517773031,0 7.240296106041376,10.64304626726708,0 7.240338246417464,10.64285868390242,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>11</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							7.277986245475818,10.61225336931841,0 7.277978306059294,10.61221922802842,0 7.277981093256427,10.61215379894395,0 7.277995900094403,10.61207107742216,0 7.278023515937155,10.61170756391005,0 7.278365387748115,10.61170242422003,0 7.278484216416901,10.6116867761321,0 7.27860159978027,10.61168735795966,0 7.278615562766717,10.61170349823317,0 7.278613894785025,10.61193841997929,0 7.278596360467207,10.61210492733422,0 7.278591206005589,10.6122029404172,0 7.27859613011513,10.61228583787462,0 7.278593179850457,10.61229417314467,0 7.277980275685296,10.61230547380167,0 7.277986245475818,10.61225336931841,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>12</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							7.251838845912952,10.62563629089097,0 7.251880816038168,10.62535959772169,0 7.252300538861125,10.62545162623146,0 7.252267210286645,10.62566138231163,0 7.25222973052611,10.62575633280953,0 7.252217031156234,10.62577178745503,0 7.252184513822089,10.62589940764269,0 7.252132089142751,10.62601220183038,0 7.252082873453427,10.62604178110202,0 7.251782343727062,10.62594270097378,0 7.251838845912952,10.62563629089097,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
